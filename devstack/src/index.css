@@ -16,11 +16,6 @@
   --color-brand-violet: #8b5cf6;
 }
 
-/*
-  Single source of truth for the brand gradient.
-  Change these three stops and every gradient surface
-  (brand mark, hero highlight, primary buttons) updates.
-*/
 :root {
   --brand-gradient: linear-gradient(
     90deg,
