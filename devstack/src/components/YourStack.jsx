@@ -12,8 +12,6 @@ export default function YourStack({ stack, onRemove, onRemoveAll }) {
           ? "No technologies selected yet."
           : `${count} Technology Selected`}
       </p>
-
-      {/* Conditional rendering: empty state vs. list of selected items */}
       {count === 0 ? (
         <div className="mt-4 rounded-xl border border-dashed border-line py-10 text-center text-sm text-ink-soft">
           Your stack is empty.
