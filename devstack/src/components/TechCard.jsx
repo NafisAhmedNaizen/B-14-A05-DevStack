@@ -19,7 +19,7 @@ export default function TechCard({ tech, isAdded, onAdd }) {
       </div>
 
       <h3 className="font-display text-lg font-bold text-ink">{name}</h3>
-      <p className="mt-2 flex-grow text-sm leading-relaxed text-ink-soft">{description}</p>
+      <p className="mt-2 grow text-sm leading-relaxed text-ink-soft">{description}</p>
 
       <div className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-2 text-xs">
         <span className="rounded-full bg-surface-muted px-2.5 py-1 font-medium text-ink-soft">
