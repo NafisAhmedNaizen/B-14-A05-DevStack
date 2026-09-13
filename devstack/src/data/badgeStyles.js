@@ -1,5 +1,3 @@
-// Soft accent colors for each "badge" value on a technology card.
-// Keeping this in one place makes it easy to add a new badge later.
 export const BADGE_STYLES = {
   Popular: "bg-emerald-50 text-emerald-600",
   Versatile: "bg-teal-50 text-teal-600",
