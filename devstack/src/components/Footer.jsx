@@ -1,5 +1,4 @@
-// lucide-react no longer ships brand/logo icons, so these three
-// social marks are simple inline SVGs kept right here.
+
 function GithubIcon(props) {
   return (
     <svg viewBox="0 0 24 24" width={18} height={18} fill="currentColor" {...props}>
